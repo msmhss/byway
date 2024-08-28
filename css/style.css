@@ -1,0 +1,1342 @@
+@font-face {
+    font-family: "Mulish";
+    src: url(../fonts/Mulish-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: "Mulish";
+}
+body {
+    margin: 0;
+}
+.wrapper {
+    padding: 0px 45px;
+}
+header {
+    border-bottom: 0.5px solid #eee;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h1::after {
+    content: "Byway";
+    vertical-align: 15px;
+}
+header nav h1:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    background: #edf1f3;
+    padding-left: 15px;
+    padding-right: 15px; 
+    padding: 9px;
+    border-radius: 27px;
+}
+header nav h1 img {
+    width: 33px;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+header nav ul li {
+    margin-right: 33px;
+}
+header nav ul li img {
+    width: 27px;
+}
+header nav ul li img:hover {
+    background: #f7f7f7;
+    padding: 9px;
+    position: relative;
+    left: 9px;
+    border-radius: 13px;
+}
+header nav ul li button.first {
+    border: 2px solid #333;
+    background: #fff;
+    min-height: 45px;
+    max-height: 100px;
+    width: 69px;
+    font-size: 17px;
+    color: #333;
+}
+header nav ul li button.first:hover {
+    background: #f7f7f7;
+}
+header nav ul li button.last {
+    background: #333;
+    color: #fff;
+    min-height: 50px;
+    max-height: 100px;
+    font-size: 17px;
+}
+header nav ul li button.last:hover {
+    background: #030303;
+}
+
+section.spotlight {
+    width: 100%;
+    height: 100vh;
+}
+section.spotlight div.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section.spotlight div.flex div.left {
+    margin-top: 93px;
+}
+section.spotlight div.flex div.left h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+section.spotlight div.flex div.left h1:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    color: #333;
+    font-size: 45.5px;
+    transition-timing-function: linear;
+}
+section.spotlight div.flex div.left p {
+    margin: 0px;
+    margin-bottom: 27px;
+}
+section.spotlight div.flex div.left button {
+    background-color: rgba(22, 112, 172, 0.929);
+    border: none;
+    color: #fff;
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 9px;
+}
+section.spotlight div.flex div.left button:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    background:  rgba(80, 144, 187, 0.929);
+}
+section.spotlight div.flex div.right {
+    width: 50%;
+}
+section.spotlight div.flex div.right img.one {
+    filter: brightness(151%);
+    position: relative;
+    transform: scale(55%);
+    left: 270px;
+    top: 27px;
+}
+section.spotlight div.flex div.right img.two {
+    filter: brightness(151%);
+    position: relative;
+    transform: scale(55%);
+    left: 50px;
+    bottom: 230px;
+    rotate: -79deg;
+}
+section.spotlight div.flex div.right div.one {
+    background: rgb(173, 207, 229);
+    position: relative;
+    left: 333px;
+    top: -111px;
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    z-index: 1;
+}
+section.spotlight div.flex div.right div.one img {
+    position: relative;
+    bottom: 65px;
+    width: 195px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+section.spotlight div.flex div.right div.two {
+    background: #ff4a4a;
+    position: relative;
+    left: 113px;
+    top: -371px;
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    z-index: 1;
+}
+section.spotlight div.flex div.right div.two img {
+    position: relative;
+    bottom: 98px;
+    width: 195px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+section.spotlight div.flex div.right div.round {
+    background: #000;
+    position: relative;
+    left: 353px;
+    top: -471px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.spotlight div.flex div.right div.round div.square {
+    background: #fff;
+    width: 13px;
+    height: 13px;
+    rotate: 45deg;
+}
+section.spotlight div.flex div.right div.rec {
+    width: 155px;
+    height: 95px;
+    background: #fff;
+    position: relative;
+    left: 253px;
+    top: -365px;
+    z-index: 3;
+    border-radius: 11px;
+    box-shadow: -1px 1px 11px 0px #ccc;
+}
+section.spotlight div.flex div.right div.rec div.box {
+    display: flex;
+    align-items: center;
+    margin-top: -19px;
+}
+section.spotlight div.flex div.right div.rec img {
+    width: 39px;
+}
+section.spotlight div.flex div.right div.rec img.one {
+    position: relative;
+    top: 0;
+    left: -3px;
+    right: 0;
+    bottom: 0;
+    rotate: none;
+    width: 67px;
+    height: 67px;
+}
+section.spotlight div.flex div.right div.rec img.two {
+    position: relative;
+    top: 0;
+    left: -47px;
+    right: 0;
+    bottom: 0;
+    rotate: none;
+    width: 67px;
+    height: 67px;
+    z-index: 3;
+}
+section.spotlight div.flex div.right div.rec img.three {
+    position: relative;
+    left: -77px;
+    z-index: 4;
+}
+section.spotlight div.flex div.right div.rec img.four {
+    position: relative;
+    left: -93px;
+    z-index: 5;
+}
+section.spotlight div.flex div.right div.rec img.five {
+    position: relative;
+    left: -105px;
+    z-index: 6;
+}
+section.spotlight div.flex div.right div.rec p {
+    font-size: 13px;
+    margin-top: -11px;
+    margin-left: 9px;
+    font-weight: bolder;
+}
+section.spotlight div.flex div.right div.three {
+    background: #ffdd1b;
+    position: relative;
+    left: 333px;
+    top: -539px;
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    z-index: 1;
+}
+section.spotlight div.flex div.right div.three img {
+    position: relative;
+    bottom: 1px;
+    width: 195px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    transform: scaleX(-1);
+}
+
+section.mentor {
+    background: #fafbfc;
+}
+section.mentor div.box {
+    display: flex;
+    justify-content: space-between;
+}
+section.mentor div.box h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+section.mentor div.box p {
+    margin-top: -11px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+section.mentor div.box hr {
+    height: 55px;
+    width: 3px;
+    background: #ddd;
+    border: none;
+    text-decoration: none;
+    margin-top: 33px;
+}
+
+section.categories {
+    width: 100%;
+    margin-top: 27px;
+}
+section.categories h1.heading {
+    font-size: 27px;
+    margin-right: 997px;
+    display: inline;
+}
+section.categories a.see {
+    color: rgb(107, 178, 255);
+    font-weight: bolder;
+    text-decoration: none;
+}
+section.categories a.see:hover {
+    background:  rgb(225, 241, 255);
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    position: relative;
+    right: 7px;
+    border-radius: 27px;
+}
+section.categories div.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+section.categories div.flex a.box {
+    text-decoration: none;
+    background: #000;
+    width: 270px;
+    border: 0.01mm solid #b2c5ff;
+    background: #fff;
+    border-radius: 17px;
+    box-shadow: 0.1px 0.1px 13px -7px;
+}
+section.categories div.flex a.box:hover {
+    background:  rgb(246, 246, 246);
+    border: 3px double #b2c5ff;
+    transition-duration: 1s;
+    box-shadow: 0.1px 0.1px 13px -3px;
+}
+section.categories div.flex a.box div.bg {
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgb(205, 233, 255);
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.categories div.flex a.box div.bg img {
+}
+section.categories div.flex a.box h1 {
+    text-align: center;
+    color: black;
+}
+section.categories div.flex a.box p {
+    text-align: center;
+    color: black;
+}
+
+section.course {
+    width: 100%;
+    margin-top: 27px;
+}
+section.course h1.heading {
+    font-size: 27px;
+    margin-right: 997px;
+    display: inline;
+}
+section.course a.see {
+    color: rgb(107, 178, 255);
+    font-weight: bolder;
+    text-decoration: none;
+}
+section.course a.see:hover {
+    background:  rgb(225, 241, 255);
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    position: relative;
+    right: 7px;
+    border-radius: 27px;
+}
+section.course div.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+section.course div.flex a.box {
+    text-decoration: none;
+    color: #000;
+    width: 260px;
+    margin-right: 33px;
+    padding: 15px;
+    border: 0.01mm solid #b2c5ff;
+    background: #fff;
+    border-radius: 17px;
+    box-shadow: 0.1px 0.1px 13px -7px;
+    height: 300px;
+}
+section.course div.flex a.box:hover {
+    background:  rgb(246, 246, 246);
+    border: 3px double #b2c5ff;
+    transition-duration: 1s;
+    box-shadow: 0.1px 0.1px 13px -3px;
+}
+section.course div.flex a.box img.bg {
+    width: 250px;
+}
+section.course div.flex a.box h1.topic {
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+section.course div.flex a.box p.name {
+    margin: 0;
+    margin-top: 12px;
+}
+section.course div.flex a.box h5.star {
+    margin: 0;
+    margin-top: 12px;
+}
+section.course div.flex a.box p.time {
+    margin: 0;
+    margin-top: 12px;
+    font-size: 14px;
+}
+section.course div.flex a.box h1.price {
+    margin: 0;
+    margin-top: 12px;
+}
+
+section.ins {
+    width: 100%;
+    margin-top: 27px;
+}
+section.ins h1.heading {
+    font-size: 27px;
+    margin-right: 997px;
+    display: inline;
+}
+section.ins a.see {
+    color: rgb(107, 178, 255);
+    font-weight: bolder;
+    text-decoration: none;
+}
+section.ins a.see:hover {
+    background:  rgb(225, 241, 255);
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    position: relative;
+    right: 7px;
+    border-radius: 27px;
+}
+section.ins div.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+section.ins div.flex a.box {
+    text-decoration: none;
+    color: #000;
+    width: 230px;
+    margin-right: 49px;
+    padding: 15px;
+    border: 0.01mm solid #b2c5ff;
+    background: #fff;
+    border-radius: 17px;
+    box-shadow: 0.1px 0.1px 13px -7px;
+    height: 250px;
+}
+section.ins div.flex a.box:hover {
+    background:  rgb(246, 246, 246);
+    border: 3px double #b2c5ff;
+    transition-duration: 1s;
+    box-shadow: 0.1px 0.1px 13px -3px;
+}
+section.ins div.flex a.box img.bg {
+    width: 250px;
+}
+section.ins div.flex a.box h1.topic {
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+section.ins div.flex a.box p.name {
+    margin: 0;
+    margin-top: 12px;
+}
+section.ins div.flex a.box hr {
+    border-color: #fff;
+    background-color: #eee;
+    border-width: 2px;
+}
+section.ins div.flex a.box h5.star {
+    margin: 0;
+    margin-top: 12px;
+    height: 17px;
+    display: flex;
+}
+section.ins div.flex a.box h5.star img {
+    display: inline;
+    margin-right: 5px;
+}
+section.ins div.flex a.box h5.star pre {
+    margin: 0;
+    font-weight: normal;
+}
+section.ins div.flex a.box h5.star pre strong {
+    font-weight: bolder;
+}
+
+section.customer {
+    width: 100%;
+    margin-top: 27px;
+    background: #f5f6f7;
+    padding-top: 27px;
+    padding-bottom: 75px;
+}
+section.customer h1.heading {
+    font-size: 27px;
+    margin-right: 957px;
+    display: inline;
+}
+section.customer .see {
+    background: #6a7f99;
+    padding: 9px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-right: 11px;
+    margin-left: 11px;
+    border-radius: 7px;
+}
+section.customer .see:hover {
+    transition-property: all;
+    transition-duration: 333ms;
+    background: #9c9eae;
+}
+section.customer div.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+section.customer div.flex a.box {
+    text-decoration: none;
+    color: #000;
+    width: 490px;
+    margin-right: 19px;
+    padding: 11px;
+    border: 0.01mm solid #b2c5ff;
+    background: #fff;
+    border-radius: 17px;
+    box-shadow: 0.1px 0.1px 13px -7px;
+    height: 225px;
+}
+section.customer div.flex a.box p {
+    font-weight: 600;
+}
+section.customer div.flex a.box img.span {
+    border-radius: 50%;
+    border: 0.001rcap solid #cacaca;
+}
+section.customer div.flex a.box div.align {
+    width: 99px;
+    height: 44px;
+    display: inline-block;
+    margin-left: 9px;
+    position: relative;
+    bottom: 13px;
+}
+section.customer div.flex a.box div.align h3 {
+    margin: 0px;
+    font-weight: bold;
+}
+section.customer div.flex a.box div.align p {
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+section.customer div.flex a.boxa {
+    text-decoration: none;
+    color: #000;
+    width: 490px;
+    margin-right: 19px;
+    padding: 11px;
+    border: 0.01mm solid #b2c5ff;
+    background: #fff;
+    border-radius: 17px;
+    box-shadow: 0.1px 0.1px 13px -7px;
+    height: 191px;
+    display: none;
+}
+section.customer div.flex a.boxa p {
+    font-weight: 600;
+}
+section.customer div.flex a.boxa img.span {
+    border-radius: 50%;
+    border: 0.001rcap solid #cacaca;
+}
+section.customer div.flex a.boxa div.align {
+    width: 99px;
+    height: 44px;
+    display: inline-block;
+    margin-left: 9px;
+    position: relative;
+    bottom: 13px;
+}
+section.customer div.flex a.boxa div.align h3 {
+    margin: 0px;
+    font-weight: bold;
+}
+section.customer div.flex a.boxa div.align p {
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+#toggle:checked ~ a.boxa {
+    display: block;
+}
+#toggle:checked ~ a.box {
+    display: none;
+}
+
+section.feature {
+    width: 100%;
+    margin-top: 55px;
+}
+section.feature div.first {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+section.feature div.first img.image {
+    margin-left: 105px;
+}
+section.feature div.first div.box {
+    margin-left: 135px;
+}
+section.feature div.first div.box h1 {
+    font-weight: bold;
+    font-size: 21px;
+}
+section.feature div.first div.box p {
+    font-weight: 500;
+}
+section.feature div.first div.box button {
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 13px;
+    padding-left: 23px;
+    padding-right: 19px;
+    border-radius: 9px;
+    font-size: 15px;
+    vertical-align: top;
+}
+section.feature div.first div.box button:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    background: #333;
+}
+section.feature div.first div.box button img {
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    width: 19px;
+    margin-bottom: -3px;
+    margin-left: 9px;
+    z-index: 3;
+}
+@keyframes arrow {
+    1% {
+        position: relative;
+        left: 0px;
+    }
+    50% {
+        position: relative;
+        left: 5px;
+    }
+    100% {
+        position: relative;
+        left: 0px;
+    }
+}
+section.feature div.last {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+section.feature div.last img.image {
+    margin-left: 105px;
+}
+section.feature div.last div.box {
+    margin-right: 135px;
+    margin-left: 105px;
+}
+section.feature div.last div.box h1 {
+    font-weight: bold;
+    font-size: 21px;
+}
+section.feature div.last div.box p {
+    font-weight: 500;
+}
+section.feature div.last div.box button {
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 13px;
+    padding-left: 23px;
+    padding-right: 19px;
+    border-radius: 9px;
+    font-size: 15px;
+    vertical-align: top;
+}
+section.feature div.last div.box button:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    background: #333;
+}
+section.feature div.last div.box button img {
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    width: 19px;
+    margin-bottom: -3px;
+    margin-left: 9px;
+}
+
+section.footer {
+    height: 55vh;
+    width: 100%;
+    margin-top: 27px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background: #0c1a37;
+}
+section.footer div.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 27px;
+}
+section.footer div.flex div.one {
+}
+section.footer div.flex div.one img {
+}
+section.footer div.flex div.one h1::after {
+    content: "Byway";
+    vertical-align: 13px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+section.footer div.flex div.one p {
+    color: #b0b0b0;
+    font-weight: 500;
+}
+section.footer div.flex div.two {
+}
+section.footer div.flex div.two h1 {
+    color: #fff;
+}
+section.footer div.flex div.two ul {
+    list-style: none;
+    margin-left: -39px;
+}
+section.footer div.flex div.two ul li {
+    margin-bottom: 11px;
+}
+section.footer div.flex div.two ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+section.footer div.flex div.three {
+}
+section.footer div.flex div.three h1 {
+    color: #fff;
+}
+section.footer div.flex div.three ul {
+    list-style: none;
+    margin-left: -39px;
+}
+section.footer div.flex div.three ul li {
+    margin-bottom: 11px;
+}
+section.footer div.flex div.three ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+section.footer div.flex div.four {
+}
+section.footer div.flex div.four h1 {
+    color: #fff;
+}
+section.footer div.flex div.four ul {
+    list-style: none;
+    margin-left: -39px;
+}
+section.footer div.flex div.four ul li {
+    margin-bottom: 27px;
+}
+section.footer div.flex div.four ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+section.footer div.flex div.four div.box {
+}
+section.footer div.flex div.four div.box img {
+    border-radius: 50%;
+    margin-right: 27px;
+}
+
+section.intro {
+    background: #f5f6f7;
+    margin-top: -15.5px;
+    padding: 15px 0px;
+    height: 399px;
+}
+section.intro div.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section.intro div.flex div.left {
+}
+section.intro div.flex div.left div.text {
+    display: flex;
+}
+section.intro div.flex div.left div.text p {
+    color: #333;
+    margin-right: 17px;
+}
+section.intro div.flex div.left div.text img {
+    margin-right: 17px;
+}
+section.intro div.flex div.left div.text p.blue {
+    color: rgb(107, 178, 255);
+    margin-right: 0px;
+}
+section.intro div.flex div.left h1.heading {
+    font-size: 37px;
+    font-weight: 799;
+}
+section.intro div.flex div.left p.p {
+    color: #333;
+    font-weight: 600;
+}
+section.intro div.flex div.left p.star {
+    color: #333;
+    font-weight: 600;
+}
+section.intro div.flex div.left p.star b {
+    font-size: 19px;
+    color: rgb(229, 194, 0);
+    font-weight: 600;
+}
+section.intro div.flex div.left img.span {
+    width: 41px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+section.intro div.flex div.left p.man {
+    display: inline-block;
+    vertical-align: 15px;
+    margin-bottom: 9px;
+    font-weight: 600;
+    color: #333;
+}
+section.intro div.flex div.left p.man b {
+    font-weight: 600;
+    color: rgb(107, 178, 255);
+    padding-right: 590px;
+}
+section.intro div.flex div.left img.lang {
+    margin-top: 19px;
+}
+section.intro div.flex div.left p.lang {
+    display: inline-block;
+    margin-left: 7px;
+    vertical-align: 5px;
+    color: #333;
+    font-weight: 600;
+}
+section.intro div.flex div.right {
+}
+section.intro div.flex div.right div.box {
+    background: #fff;
+    margin-top: 13px;
+    border-radius: 15px;
+    box-shadow: 0.1px 0.1px 13px -11px;
+    border: 1px solid #ddd;
+    width: 397px;
+}
+section.intro div.flex div.right div.box div.top {
+    border-bottom: 1px solid #ddd;
+    padding: 21px;
+}
+section.intro div.flex div.right div.box div.top img {
+    margin-bottom: 27px;
+}
+section.intro div.flex div.right div.box div.top h3.one {
+    display: inline;
+    font-size: 23px;
+    margin-right: 9px;
+}
+section.intro div.flex div.right div.box div.top h3.two {
+    display: inline;
+    color: #cacaca;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 2.5px;
+    font-size: 17px;
+}
+section.intro div.flex div.right div.box div.top h3.three {
+    width: 107px;
+    display: inline;
+    font-size: 19.5px;
+    margin-left: 9px;
+    color: #0a0;
+}
+section.intro div.flex div.right div.box div.top button.first {
+    display: block;
+    margin-top: 27px;
+    width: 100%;
+    border: none;
+    background: #111;
+    color: #fff;
+    font-weight: 600;
+    height: 41px;
+    border-radius: 7px;
+}
+section.intro div.flex div.right div.box div.top button.last {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    background: #fff;
+    border: 1px solid #111;
+    color: #111;
+    font-weight: 799;
+    height: 41px;
+    border-radius: 7px;
+}
+section.intro div.flex div.right div.box div.bottom {
+    padding: 21px;
+    padding-top: 0px;
+}
+section.intro div.flex div.right div.box div.bottom h4 {
+}
+section.intro div.flex div.right div.box div.bottom div.imagebox {
+}
+section.intro div.flex div.right div.box div.bottom div.imagebox a img {
+    border-radius: 50%;
+    margin-right: 9px;
+    padding: 5px;
+    background: #eee;
+}
+
+section.group {
+    margin-top: 55px;
+}
+section.group div.top {
+    border-bottom: 1px solid #ccc;
+    width: 790px;
+    padding-bottom: 21px;
+    margin-top: 19px;
+}
+section.group .twos {
+    border: none;
+    margin-top: 39px;
+    background: #fff;
+    padding: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-right: 27px;
+    border-radius: 7px;
+    border: 1px solid #b2c5ff;
+    font-weight: 700;
+}
+section.group .threes {
+    border: none;
+    margin-top: 39px;
+    background: #fff;
+    padding: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-right: 27px;
+    border-radius: 7px;
+    border: 1px solid #b2c5ff;
+    font-weight: 700;
+}
+section.group .fours {
+    border: none;
+    background: #fff;
+    padding: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-right: 27px;
+    border-radius: 7px;
+    border: 1px solid #b2c5ff;
+    font-weight: 700;
+    margin-top: 39px;
+}
+section.group .ones {
+    background: #b2c5ff;
+    border: none;
+    margin-top: 39px;
+    padding: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-right: 27px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+section.group div.course {
+    border-bottom: 1px solid #ccc;
+    width: 830px;
+}
+section.group div.course h1.first {
+    color: #111;
+}
+section.group div.course p.first {
+    color: #333;
+    font-weight: 600;
+}
+section.group div.course h1.last {
+    color: #111;
+}
+section.group div.course p.last {
+    color: #333;
+    font-weight: 600;
+}
+section.group div.ins {
+    border-bottom: 1px solid #ccc;
+    width: 830px;
+}
+section.group div.ins h1.heading {
+    color: #111;
+    font-size: 23px;
+}
+section.group div.ins h1.name {
+    color: rgb(107, 178, 255);
+    margin-bottom: 0px;
+}
+section.group div.ins h2.role {
+    font-size: 17px;
+    margin-top: 9px;
+    font-weight: normal;
+}
+section.group div.ins img.photo {
+    width: 111px;
+    border-radius: 50%;
+}
+section.group div.ins div.items {
+    display: inline-block;
+    margin-left: 15px;
+}
+section.group div.ins div.items p {
+    margin-top: 0;
+    margin-bottom: 9px;
+    text-align: justify;
+    font-weight: 600;
+}
+section.group div.ins div.items p img {
+    padding-right: 9px;
+}
+section.group div.ins p.ins {
+    font-weight: 600;
+    color: #333;
+}
+section.group div.syl {
+    border-bottom: 1px solid #ccc;
+    width: 830px;
+}
+section.group div.syl h1.heading {
+    color: #111;
+    font-size: 23px;
+    font-weight: bold;
+}
+section.group div.syl div.box {
+    border: 1px solid #ccc;
+    width: 710px;
+    border-radius: 9px;
+    margin-bottom: 27px;
+}
+section.group div.syl div.box div.item {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 11px;
+    height: 55px;
+}
+section.group div.syl div.box div.item:last-child {
+    display: flex;
+    border-bottom: none;
+}
+section.group div.syl div.box div.item img {
+    width: 15px;
+    margin-left: 15px;
+}
+section.group div.syl div.box div.item h2 {
+    margin-left: 15px;
+    font-size: 19px;
+    width: 287px;
+}
+section.group div.syl div.box div.item h5.first {
+    margin-left: 210px;
+    color: #777;
+    font-weight: 500;
+}
+section.group div.syl div.box div.item h5.last {
+    margin-left: 27px;
+    color: #777;
+    font-weight: 500;
+}
+section.group div.review {
+    display: flex;
+}
+section.group div.review h1.heading {
+    font-size: 23px;
+}
+section.group div.review div.left {
+    width: 27%;
+}
+section.group div.review div.left h1 {
+    font-size: 21px;
+    margin-bottom: 0px;
+}
+section.group div.review div.left h1 img {
+    margin-bottom: 0px;
+}
+section.group div.review div.left h1 p {
+    display: inline-block;
+    font-size: 15px;
+    color: #555;
+}
+section.group div.review div.left p.one {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+section.group div.review div.left p.one img {
+}
+section.group div.review div.left p.two {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+section.group div.review div.left p.two img:last-child {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.three {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+section.group div.review div.left p.three img:nth-child(4) {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.three img:last-child {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.four {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+section.group div.review div.left p.four img:nth-child(3) {    
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.four img:nth-child(4) {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.four img:last-child {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.five {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+section.group div.review div.left p.five img:nth-child(2) {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.five img:nth-child(3) {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.five img:nth-child(4) {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.left p.five img:last-child {
+    filter:grayscale(100%) opacity(45%) brightness(100%) invert(0%) contrast(50%);
+}
+section.group div.review div.right {
+    width: 73%;
+    padding-top: 75px;
+}
+section.group div.review div.right div.box {
+    border: 1px solid #ccc;
+    padding: 21px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-bottom: 19px;
+}
+section.group div.review div.right div.box div.left {
+}
+section.group div.review div.right div.box div.left img {
+}
+section.group div.review div.right div.box div.left h1 {
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: 23px;
+    margin-left: 9px;
+}
+section.group div.review div.right div.box div.right {
+    padding: 0px;
+}
+section.group div.review div.right div.box div.right h1 {
+    display: block;
+    margin: 0px;
+}
+section.group div.review div.right div.box div.right h1 img {
+}
+section.group div.review div.right div.box div.right h1 p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    display: inline-block;
+    margin-left: 19px;
+}
+section.group div.review div.right div.box div.right p.p {
+    margin: 0px;
+    color: #333;
+    font-weight: 600;
+}
+section.group div.review div.right a button.review {
+    border: 1px solid #111;
+    background: #fff;
+    padding: 15px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 9px;
+    font-weight: 700;
+}
+
+
+#one:checked ~ label.ones {
+    background: #b2c5ff;
+    border: none;
+    margin-top: 39px;
+    padding: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-right: 27px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+#one:checked ~ div.course {
+    display: block;
+}
+#one:checked ~ div.ins {
+    display: block;
+}
+#one:checked ~ div.syl {
+    display: block;
+}
+#one:checked ~ div.review {
+    display: block;
+}
+#two:checked ~ label.twos {
+    background: #b2c5ff;
+    border: none;
+    margin-top: 39px;
+    padding: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-right: 27px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+#two:checked ~ div.course {
+    display: none;
+}
+#two:checked ~ div.ins {
+    display: block;
+}
+#two:checked ~ div.syl {
+    display: none;
+}
+#two:checked ~ div.review {
+    display: none;
+}
+#three:checked ~ label.threes {
+    background: #b2c5ff;
+    border: none;
+    margin-top: 39px;
+    padding: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-right: 27px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+#three:checked ~ div.course {
+    display: none;
+}
+#three:checked ~ div.ins {
+    display: none;
+}
+#three:checked ~ div.syl {
+    display: block;
+}
+#three:checked ~ div.review {
+    display: none;
+}
+#four:checked ~ label.fours {
+    background: #b2c5ff;
+    border: none;
+    margin-top: 39px;
+    padding: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-right: 27px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+#four:checked ~ div.course {
+    display: none;
+}
+#four:checked ~ div.ins {
+    display: none;
+}
+#four:checked ~ div.syl {
+    display: none;
+}
+#four:checked ~ div.review {
+    display: block;
+}
